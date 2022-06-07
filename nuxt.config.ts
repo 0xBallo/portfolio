@@ -7,4 +7,7 @@ export default defineNuxtConfig({
     router: {
         base: '/portfolio/',
     },
+    app: {
+        baseURL: '/portfolio/',
+    }
 })
