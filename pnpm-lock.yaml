@@ -2,9 +2,11 @@ lockfileVersion: 5.3
 
 specifiers:
   nuxt: 3.0.0-rc.3
+  push-dir: ^0.4.1
 
 devDependencies:
   nuxt: 3.0.0-rc.3
+  push-dir: 0.4.1
 
 packages:
 
@@ -3662,6 +3664,14 @@ packages:
   /punycode/2.1.1:
     resolution: {integrity: sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==}
     engines: {node: '>=6'}
+    dev: true
+
+  /push-dir/0.4.1:
+    resolution: {integrity: sha512-Nrrsly0c3kCfu725Jnif/s5adHpBwKCGWBttHVxTndF4iyGBSFtNi/pduFxHF5ks0kWtHcbA3XXP5MEra6iiCA==}
+    engines: {node: '>=0.12'}
+    hasBin: true
+    dependencies:
+      minimist: 1.2.6
     dev: true
 
   /qs/6.10.5:
